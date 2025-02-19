@@ -4,9 +4,13 @@ import Footer from "./Footer";
 export default function Layout() {
   return (
     <>
-      <Header></Header>
+      <div className="min-h-screen">
+        <Header></Header>
 
-      <Outlet />
+        <div className="container mx-auto">
+          <Outlet />
+        </div>
+      </div>
 
       <Footer></Footer>
     </>
