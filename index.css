@@ -1,5 +1,5 @@
 @import "tailwindcss";
 
 body {
-  @apply bg-[#021526] text-white
+  font-size: 18px;
 }
