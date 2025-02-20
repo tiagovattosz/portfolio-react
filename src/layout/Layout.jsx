@@ -5,14 +5,12 @@ export default function Layout() {
   return (
     <>
       <div className="min-h-screen">
-        <Header></Header>
+        <Header />
 
-        <div className="container mx-auto">
-          <Outlet />
-        </div>
+        <Outlet />
       </div>
 
-      <Footer></Footer>
+      <Footer />
     </>
   );
 }
